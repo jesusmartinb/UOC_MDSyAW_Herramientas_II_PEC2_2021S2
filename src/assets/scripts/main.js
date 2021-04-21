@@ -12,7 +12,5 @@ import * as bootstrap from 'bootstrap';
  * Write any other JavaScript below
  */
 
-+( function() {
-  const university = "UOC";
-  console.log(`Hello, ${university}!`);
-} )();
+//const myCarousel = document.querySelector('#carouselExampleCaptions');
+//const carousel = new bootstrap.Carousel(myCarousel);

@@ -240,3 +240,16 @@ button,
 .card__title {
   padding-top: 1rem;
 }
+
+.accent-text {
+  color: $accent;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: $accent;
+}
+
+.centrado {
+  width: 80%;
+  margin: 3rem auto;
+}
