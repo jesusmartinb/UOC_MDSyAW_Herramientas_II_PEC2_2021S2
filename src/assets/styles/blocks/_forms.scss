@@ -1,0 +1,39 @@
+.form {
+  width: 100%;
+}
+
+.form__label,
+.form__input,
+.form__textarea,
+.button {
+  display: block;
+  width: 100%;
+  padding: .3rem;
+  margin-bottom: .3rem;
+  font-size: 1.2rem;
+  border: 2px solid $accent;
+  border-radius: 5px;
+}
+
+.form__label {
+  padding: none;
+  border: none;
+}
+
+.form__entry {
+  margin-bottom: 1rem;
+}
+
+.button {
+  color: #fff;
+  background-color: $accent;
+}
+
+.button:hover {
+  font-weight: bold;
+}
+
+.option {
+  margin-top: 3rem;
+  text-align: center;
+}

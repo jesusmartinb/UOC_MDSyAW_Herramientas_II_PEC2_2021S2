@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>The Dream Bio</title>
+  </head>
+  <body>
+    <div class="container menu-principal">
+        <div class="row">
+            <nav class="navbar navbar-expand-md navbar-light bg-light col-12">
+                  <a class="navbar-brand" href="/">
+                    <img src="./assets/images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-middle my-2 logo">
+                    The Dream
+                </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto pe-5 mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="miembros.html">Miembros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="biografia.html">Biografía</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+              </nav>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="title mt-5">
+            Formulario de Contacto
+        </h1>
+    </div>
+    <div class="container">
+        <form class="form" name="contact" method="POST" data-netlify="true">
+            <div class="form__entry">
+                <label class="form__label" for="name">Nombre: </label>
+                <input class="form__input" type="text" name="name" id="name" placeholder="Escribe tu Nombre">
+            </div>
+            <div class="form__entry">
+                <label class="form__label" for="surnames">Apellidos: </label>
+                <input class="form__input" type="text" name="surnames" id="surnames" placeholder="Escribe tus Apellidos">
+            </div>
+            <div class="form__entry">
+                <label class="form__label" for="email">Email: </label>
+                <input class="form__input" type="email" name="email" id="email" placeholder="Escribe tu email">
+            </div>
+            <div class="form__entry">
+                <label class="form__label" for="subject">Asunto: </label>
+                <input class="form__input" type="text" name="subject" id="subject" placeholder="Indica el asunto del mensaje">
+            </div>
+            <div class="form__entry">
+                <label class="form__label" for="message">Mensaje: </label>
+                <textarea class="form__textarea" rows="5" name="message" id="message" placeholder="Deja tu mensaje aquí..."></textarea>
+            </div>
+            <div class="form__button">
+                <input type="reset" class="button" value="Limpiar Formulario">
+            </div>
+            <div class="form__button">
+                <input type="submit" class="button" value="Enviar Formulario">
+            </div>
+        </form>
+        <p class="option">También puedes contactar con nosotros en nuestras redes sociales</p>
+    </div>
+
+
+
+
+      <footer class="py-4">
+          <p class="text-center">&copy; Todos los derechos reservados. 2021</p>
+      </footer>
+      <div class="container menu-secundario">
+        <div class="row">
+            <nav class="navbar navbar-light bg-light col-12">
+                  <a class="navbar-brand me-0" href="/">
+                    <img src="./assets/images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-middle my-2 logo">
+                    The Dream
+                </a>
+                <div class="list-group list-group-horizontal ms-auto mb-2 mb-lg-0">
+                    <a href="#" class="list-group-item list-group-item-action border-0 px-1"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="list-group-item list-group-item-action border-0"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="list-group-item list-group-item-action border-0"><i class="fab fa-twitter"></i></a>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-expand navbar-light bg-light px-1 col-12">
+                <ul class="navbar-nav m-auto pe-5-sm mb-2 mb-lg-0 d-flex flex-wrap menu-inferior">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="miembros.html">Miembros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="biografia.html">Biografía</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>
