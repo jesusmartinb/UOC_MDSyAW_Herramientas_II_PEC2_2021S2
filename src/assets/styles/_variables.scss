@@ -1,12 +1,25 @@
-@use "sass:color";
+$main: #fff;
+$accent: #fe320f;
+$text: #282828;
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$font-family-serif: "Georgia", "Times New Roman", serif;
-
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+$body-font: "Antonio", sans-serif;
+$header-font: "New Tegomin", serif;
 
 $theme-colors: (
-  "primary": #fe320f
+  "primary": $accent,
+  "secondary": $main
 );
+
+$carousel-control-color: $accent;
+$carousel-indicator-active-bg: $accent;
+$carousel-caption-color: $accent;
+
+$accordion-border-color: rgba($accent, .3);
+$accordion-button-color: $main;
+$accordion-button-focus-border-color: rgba($accent, .4);
+$accordion-button-focus-box-shadow: 0 0 0 .25rem rgb(254 50 15 / 25%);
+$accordion-icon-color: $main;
+$accordion-icon-active-color: $main;
+
+$list-group-color: $accent;
+$list-group-border-color: rgba($accent, .3);
