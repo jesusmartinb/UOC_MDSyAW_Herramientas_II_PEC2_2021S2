@@ -1,0 +1,22 @@
+/* Mixins para media queries */
+
+@mixin movil {
+
+  @media (max-width: #{$movil}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+
+  @media (min-width: #{$tablet}) and (min-height: #{$altura}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}

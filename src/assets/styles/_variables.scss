@@ -1,15 +1,24 @@
+/* Colores */
 $main: #fff;
 $accent: #fe320f;
 $text: #282828;
-
-$body-font: "Antonio", sans-serif;
-$header-font: "New Tegomin", serif;
 
 $theme-colors: (
   "primary": $accent,
   "secondary": $main
 );
 
+/* Fuentes */
+$body-font: "Antonio", sans-serif;
+$header-font: "New Tegomin", serif;
+
+/* Tamaño breakpoints de media queries */
+$movil: 376px;
+$altura: 27em;
+$tablet: 42em;
+$desktop: 990px;
+
+/* Variables Bootstrap */
 $carousel-control-color: $accent;
 $carousel-indicator-active-bg: $accent;
 $carousel-caption-color: $accent;
