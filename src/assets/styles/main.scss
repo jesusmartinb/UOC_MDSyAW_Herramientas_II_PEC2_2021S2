@@ -4,10 +4,12 @@
  */
 
 /**
- * Import variables
+ * Import variables and mixins
  */
 
 @import "variables";
+
+@import "mixins/mixins";
 
 /**
  * Import npm dependencies
@@ -90,6 +92,12 @@
  */
 
 @import "layouts/home";
+
+@import "layouts/basic";
+
+@import "layouts/mediaQueries";
+
+@import "blocks/card";
 
 @import "blocks/forms";
 

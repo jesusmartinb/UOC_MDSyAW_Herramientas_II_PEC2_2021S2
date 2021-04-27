@@ -1,0 +1,29 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 1496px;
+  margin: auto;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.card {
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid $accent;
+}
+
+.card__title {
+  padding-top: 1rem;
+}
+
+.card__artist {
+  z-index: 0;
+}
+
+.centrado {
+  width: 80%;
+  margin: 3rem auto;
+}

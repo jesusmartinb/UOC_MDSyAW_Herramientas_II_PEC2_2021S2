@@ -1,0 +1,131 @@
+// Layout Media Queries
+
+@supports (display:grid) {
+
+  @include tablet {
+    main {
+      display: grid;
+      max-width: none;
+      padding: 0;
+      grid-template-columns: 2fr minmax(10em, max-content) minmax(14em, max-content) minmax(1em, 1fr) fit-content(28em) calc(2em + .5vw);
+      grid-template-rows: 35vh 40vh 15vh 10vh;
+    }
+
+    h1 {
+      grid-column: 3 / 6;
+      grid-row: 2 / 3;
+      z-index: 2;
+      padding-left: .25em;
+      margin-bottom: initial;
+    }
+
+    h2 {
+      grid-row: 1 / -1;
+      grid-column: 6 / 7;
+      writing-mode: vertical-rl;
+      margin-bottom: initial;
+      color: $text;
+      background: $main;
+    }
+
+    hr {
+      grid-column: 5 / 6;
+      grid-row: 2;
+      width: 20ch;
+      height: 1px;
+      background-color: transparent;
+    }
+
+    .about {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      align-self: end;
+      padding: 1.6rem;
+      margin-bottom: initial;
+      background: $main;
+    }
+
+    .mas {
+      grid-column: 3 / 4;
+      grid-row: 3 / 4;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: initial;
+      background: $main;
+
+      & a {
+        display: block;
+        padding-left: 2rem;
+
+        &::before {
+          display: block;
+          width: 4ch;
+          height: 4px;
+          margin-bottom: 1em;
+          content: "";
+          background-color: $accent;
+        }
+      }
+    }
+
+    a {
+      display: block;
+      padding-left: 2rem;
+
+      &::before {
+        display: block;
+        width: 4ch;
+        height: 4px;
+        margin-bottom: 1em;
+        content: "";
+        background-color: $accent;
+      }
+    }
+
+    img {
+      grid-column: 1 / 7;
+      grid-row: 1 / 5;
+      z-index: -1;
+    }
+
+    .location {
+      grid-column: 5 / 6;
+      grid-row: 4 / 5;
+      z-index: 2;
+      display: flex;
+      text-align: center;
+      background: $main;
+
+      & p {
+        margin: auto;
+      }
+    }
+
+    button {
+      grid-column: 2 / 3;
+      grid-row: 4 / 5;
+      position: initial;
+      padding: 0;
+    }
+  }
+
+  @include movil {
+
+    .menu-inferior {
+      justify-content: center;
+    }
+  }
+
+  @include desktop {
+
+    h1 {
+      grid-column: 2 / 6;
+      grid-row: 2 / 3;
+      z-index: 2;
+      padding-left: .25em;
+      margin-bottom: initial;
+    }
+  }
+}
