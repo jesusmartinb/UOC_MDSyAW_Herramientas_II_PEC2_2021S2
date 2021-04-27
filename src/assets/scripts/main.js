@@ -6,11 +6,10 @@
 // import 'some-node-module';
 // import SomeModule from 'some-node-module';
 
-import * as bootstrap from 'bootstrap';
+// import * as bootstrap from 'bootstrap';
+
+import { Button as Button, Carousel as Carousel, Collapse as Collapse } from 'bootstrap';
 
 /**
  * Write any other JavaScript below
  */
-
-//const myCarousel = document.querySelector('#carouselExampleCaptions');
-//const carousel = new bootstrap.Carousel(myCarousel);

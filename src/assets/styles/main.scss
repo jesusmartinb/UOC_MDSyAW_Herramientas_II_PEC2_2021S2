@@ -20,7 +20,69 @@
 
 @import "@fortawesome/fontawesome-free/css/all.css";
 
-@import "bootstrap/scss/bootstrap.scss";
+// Bootstrap
+
+// @import "bootstrap/scss/bootstrap.scss";
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+
+@import "bootstrap/scss/_functions";
+
+// 2. Include any default variable overrides here
+
+@import "bootstrap/scss/_variables";
+
+// 3. Include remainder of required Bootstrap stylesheets
+
+@import "bootstrap/scss/_mixins";
+
+@import "bootstrap/scss/_utilities";
+
+// 4. Include any optional Bootstrap components as you like
+
+@import "bootstrap/scss/_root";
+
+@import "bootstrap/scss/_reboot";
+
+@import "bootstrap/scss/_type";
+
+@import "bootstrap/scss/_images";
+
+@import "bootstrap/scss/_containers";
+
+@import "bootstrap/scss/_grid";
+
+@import "bootstrap/scss/_forms";
+
+@import "bootstrap/scss/_buttons";
+
+@import "bootstrap/scss/_transitions";
+
+@import "bootstrap/scss/_button-group";
+
+@import "bootstrap/scss/_nav";
+
+@import "bootstrap/scss/_navbar";
+
+@import "bootstrap/scss/_card";
+
+@import "bootstrap/scss/_accordion";
+
+@import "bootstrap/scss/_badge";
+
+@import "bootstrap/scss/_alert";
+
+@import "bootstrap/scss/_list-group";
+
+@import "bootstrap/scss/_carousel";
+
+// Helpers
+
+@import "bootstrap/scss/_helpers";
+
+// Utilities
+
+@import "bootstrap/scss/utilities/_api";
 
 /**
  * Import layouts
