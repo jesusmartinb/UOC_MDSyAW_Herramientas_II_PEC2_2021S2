@@ -32,3 +32,11 @@ $accordion-icon-active-color: $main;
 
 $list-group-color: $accent;
 $list-group-border-color: rgba($accent, .3);
+
+$navbar-toggler-padding-y: .5rem;
+$navbar-toggler-padding-x: .5rem;
+$navbar-toggler-font-size: 1.4rem;
+$navbar-toggler-border-radius: 50%;
+$navbar-toggler-focus-width: 2px;
+$navbar-toggler-transition: box-shadow .15s ease-in-out;
+$navbar-light-toggler-border-color: rgba($accent, .6);
