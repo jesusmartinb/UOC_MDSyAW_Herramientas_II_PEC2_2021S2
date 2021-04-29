@@ -6,8 +6,6 @@
 // import 'some-node-module';
 // import SomeModule from 'some-node-module';
 
-// import * as bootstrap from 'bootstrap';
-
 import { Button as Button, Carousel as Carousel, Collapse as Collapse } from 'bootstrap';
 
 /**
